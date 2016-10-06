@@ -9,7 +9,7 @@ namespace Eq2ContentEditor.Core
     {
         public Class1()
         {
-            var test = ??;
+            var test = "much better";
         }
     }
 }
