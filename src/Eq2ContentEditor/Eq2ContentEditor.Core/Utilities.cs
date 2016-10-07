@@ -10,10 +10,10 @@ namespace Eq2ContentEditor.Core
         public int CalcSpellBuffValue(int level, int potency)
         {
             var result = level * potency;
-            //if (result > 100)
-            //{
-            //    result = 100;
-            //}
+            if (result > 100)
+            {
+                result = 100;
+            }
 
             return result;
         }
